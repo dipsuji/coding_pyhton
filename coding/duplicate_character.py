@@ -4,10 +4,10 @@ from collections import Counter
 def duplicate_char(st):
     """
      print duplicate character from string
-        output
-        dictionary: Counter({'a': 3, 'm': 2, 's': 2, 'b': 1, 'e': 1, 'i': 1, 'l': 1, 't': 1, 'y': 1})
-        dict_str_count.key: ['a', 'b', 'e', 'i', 'm', 'l', 's', 't', 'y']
-        a m s
+    output-
+    dictionary: Counter({'a': 3, 'm': 2, 's': 2, 'b': 1, 'e': 1, 'i': 1, 'l': 1, 't': 1, 'y': 1})
+    dict_str_count.key: ['a', 'b', 'e', 'i', 'm', 'l', 's', 't', 'y']
+    a m s
     """
     # key is character of string and value is count of character in string
     dict_str_count = Counter(st)
@@ -20,7 +20,9 @@ def duplicate_char(st):
         # all the indexes from the keys which have value greater than 1.
         if char_frequency > 1:
             # kes are in alphabetical order
-            print dict_str_count.keys()[index],
+            print "duplicate char: "+ dict_str_count.keys()[index]
+        elif char_frequency == 1:
+            print "non duplicate: "+dict_str_count.keys()[index]
         # go to next index
         index = index + 1
 
