@@ -1,5 +1,14 @@
 def count_occurrence_word(my_str, word):
+    """
+    Count the occurrence of specific word in string
+
+    Input-
+    This is my lovely book, my father given me, my
+    Output-
+    2
+    """
     # split the string into words by spaces in word_list list
+    # bigo n time
     word_list = my_str.split(" ")
     print word_list
     count = 0
@@ -12,4 +21,4 @@ def count_occurrence_word(my_str, word):
     return count
 
 
-print count_occurrence_word("This is my lovely book", "my")
+print count_occurrence_word("This is my lovely book, my father given me", "my")
