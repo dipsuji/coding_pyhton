@@ -22,7 +22,7 @@ def remove_duplicate(ar):
             my_non_duplicate_arr.append(dict_number_count.keys()[index])
         index = index + 1
 
-    print my_non_duplicate_arr
+    print(my_non_duplicate_arr)
 
 
 remove_duplicate([2, 3, 1, 5, 6, 4, 4, 2])

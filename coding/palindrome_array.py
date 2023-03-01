@@ -1,6 +1,6 @@
 def is_polindrome(arr):
     last_index = len(arr) - 1
-    for i in range(0, len(arr) / 2):
+    for i in range(0, len(arr) // 2):
         if arr[i] != arr[last_index]:
             return False
         last_index = last_index - 1

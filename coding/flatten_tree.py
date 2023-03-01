@@ -31,11 +31,11 @@ def find(root, item):
     if root:
         # check the element if it is in root
         if root.val == item:
-            print "Tree " + str(root.val)
+            print("Tree " + str(root.val))
             if root.left is not None:
-                print " Left " + str(root.left.val)
+                print(" Left " + str(root.left.val))
             if root.right is not None:
-                print " Right " + str(root.right.val)
+                print(" Right " + str(root.right.val))
             return
         # Recursion function call left tree
         find(root.left, item)

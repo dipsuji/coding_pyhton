@@ -20,9 +20,9 @@ def duplicate_char(st):
         # all the indexes from the keys which have value greater than 1.
         if char_frequency > 1:
             # kes are in alphabetical order
-            print "duplicate char: "+ dict_str_count.keys()[index]
+            print("duplicate char: "+ dict_str_count.keys()[index])
         elif char_frequency == 1:
-            print "non duplicate: "+dict_str_count.keys()[index]
+            print("non duplicate: "+dict_str_count.keys()[index])
         # go to next index
         index = index + 1
 

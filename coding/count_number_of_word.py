@@ -12,7 +12,7 @@ def num_word(my_str):
     return count + 1
 
 
-print num_word("This is testing program")
+print(num_word("This is testing program"))
 
 
 def count_words(my_str):
@@ -25,4 +25,4 @@ def count_words(my_str):
     return len(my_str_list)
 
 
-print count_words("This is testing program")
+print(count_words("This is testing program"))

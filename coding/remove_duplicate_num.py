@@ -19,7 +19,7 @@ def remove_duplicate_num(my_arr):
             # and that character append in array
             result_array.append(num_element)
     # print num_dic
-    print result_array
+    print(result_array)
 
 
 remove_duplicate_num([2, 3, 4, 4, 5, 6, 1, 2])

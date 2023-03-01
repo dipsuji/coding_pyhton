@@ -25,7 +25,7 @@ def find_vowel_consonant(st):
             else:
                 print(ch + " - is a Consonant")
         else:
-            print "Neither vowel nor consonant"
+            print("Neither vowel nor consonant")
 
 
 # find_vowel_consonant("")

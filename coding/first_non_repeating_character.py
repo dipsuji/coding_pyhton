@@ -19,8 +19,8 @@ def first_non_repeat_char(my_str):
             # and that character append in array
             used_letter_array.append(ch)
             # print used_letter_array
-    print char_dict
-    print used_letter_array
+    print(char_dict)
+    print(used_letter_array)
     # now finding the first non repeating char in used_letter_array
     for ch in used_letter_array:
         # check counting of char from array in char_dict is 1
@@ -29,6 +29,6 @@ def first_non_repeat_char(my_str):
     return None
 
 
-print first_non_repeat_char("ssuumed")
+print(first_non_repeat_char("ssuumed"))
 # print first_non_repeat_char("abghss")
 # print first_non_repeat_char("aabbcc")

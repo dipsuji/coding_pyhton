@@ -10,7 +10,7 @@ def count_occurrence_word(my_str, word):
     # split the string into words by spaces in word_list list
     # bigo n time
     word_list = my_str.split(" ")
-    print word_list
+    print(word_list)
     count = 0
     # # search the word in list word_list
     for i in range(0, len(word_list)):
@@ -21,4 +21,4 @@ def count_occurrence_word(my_str, word):
     return count
 
 
-print count_occurrence_word("This is my lovely book, my father given me", "my")
+print(count_occurrence_word("This is my lovely book, my father given me", "my"))

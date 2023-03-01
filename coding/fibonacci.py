@@ -1,4 +1,10 @@
 def fibi(n):
+    """
+    Nth Fibonacci
+    Fn = Fn-1 + Fn-2
+    :param n:
+    :return:
+    """
     a, b = 0, 1
     for i in range(n):
         # fibonacci series is next no. is sum of previous two number.

@@ -16,12 +16,12 @@ def find_triplets_with_sum_zero(arr):
         r = n - 1
         x = arr[i]
         while l < r:
-            print ""
+            print("")
             print("Left " + str(arr[l]))
             print("Right " + str(arr[r]))
             print("Current item " + str(x))
             if x + arr[l] + arr[r] == 0:
-                print "Sum is zero now-- Triplet-----"
+                print("Sum is zero now-- Triplet-----")
                 # print elements if it's sum is zero
                 print(x, arr[l], arr[r])
                 l += 1
@@ -30,12 +30,12 @@ def find_triplets_with_sum_zero(arr):
 
             # If sum of three elements is less than zero then increment in left
             elif x + arr[l] + arr[r] < 0:
-                print "Increase left pointer"
+                print("Increase left pointer")
                 l += 1
 
             else:
                 # If sum of three elements is grater than zero then decrement in right
-                print "Decrease right pointer"
+                print("Decrease right pointer")
                 r -= 1
 
     if not is_triple_occur:
